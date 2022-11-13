@@ -296,6 +296,22 @@ font-family: 'Roboto';
         
       
 }
+/*-------------------------------------regular-customers----------------------------------------*/
+
+.regular-customers { 
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 42px;
+        text-align: center;
+        letter-spacing: 0.03em;
+    
+        color: #212121;
+}
+
+
+
 /* ------------------------------------------------------------footer------------------------------------------------------------- */
 .footer { 
     background-color: #2F303A;
@@ -648,4 +664,66 @@ margin-right: 10px; }
 .cards-soc-link:hover .cards-soc-icons { 
     fill: #FFFFFF;
     
+}
+
+/*---------------------regular-customers-icons----------------------*/
+
+.regular-customers h2 {margin-bottom: 50px; 
+font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 0.85;
+    text-align: center;
+    letter-spacing: 0.03em;}
+
+.regular-customers-list { 
+
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+    
+   
+    
+    
+}
+.regular-customers-item { 
+    min-width: 170px;
+    height: 92px;
+
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    
+}
+
+.regular-customers-icons { 
+        width: 106px;
+        height: 60px;
+} 
+
+.regular-customers-link { 
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+
+           
+.regular-customers-icons {
+    fill: var(--icons-text-color);
+  
+
+}
+
+.regular-customers-item:hover {
+border-color: var(--accent-color);
+
+}
+
+
+.regular-customers-item:hover .regular-customers-icons {
+    fill: var(--accent-color);
+
 }

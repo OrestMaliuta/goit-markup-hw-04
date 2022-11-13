@@ -479,6 +479,9 @@ h1 , h2 ,h3 , h4, h5, h6 , p ,ul {
     
 }
 
+
+
+
 .nav-links li { margin-right: 50px ;}
 
 .nav-links .link-item:last-child {margin: 0px;}
@@ -539,6 +542,28 @@ margin-right: auto;
 
     padding: 200px 0px;
 }
+
+
+/*---------------------------------------HEADER ICONS--------------------------------*/
+
+
+
+
+.header-icons { fill: var(--icons-text-color);
+margin-right: 10px; }
+
+.mailto:hover .header-icons {
+    fill: var(--accent-color);
+
+}
+.tel:hover .header-icons { 
+    fill: var(--accent-color);
+}
+
+
+
+
+
 /*-----------------------------------------overlay----------------------------------------------------------*/
 .overlay { 
     max-width: 1600px;
@@ -610,7 +635,7 @@ margin-right: auto;
     
 }
 
-.cards-soc-icons { 
+.cards-soc-icons   { 
     fill: var(--icons-text-color);
 
 }

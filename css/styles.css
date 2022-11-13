@@ -3,6 +3,7 @@
     --tittle-text-color : #212121;
     --accent-color: #2196F3;
     --paragraf-text-color: #757575;
+    --icons-text-color: #AFB1B8;
 }
 /*-------------------------------------------------header-------------------------------------------*/
 
@@ -243,7 +244,7 @@ li {list-style: none;}
 
 .team-card img { 
     display: block;
-    width: 270px;
+    max-width: 270px;
     height: 260px;
     background: #F5F4FA;
 }
@@ -290,7 +291,8 @@ font-family: 'Roboto';
         line-height: 1.18;
         letter-spacing: 0.03em;
         color:var(--paragraf-text-color);
-        text-align: center;
+        text-align: center; 
+        margin-bottom: 16px;
         
       
 }
@@ -533,7 +535,69 @@ margin-right: auto;
     justify-content: center;
 }
 .tittle-section {
-    background: #2F303A;
+    /*  */
 
     padding: 200px 0px;
+}
+/*-----------------------------------------overlay----------------------------------------------------------*/
+.overlay { 
+    max-width: 1600px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #2F303A;
+    background-image:linear-gradient(
+        to right, 
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)),
+    
+    
+    url("../images/mainbckg.jpg");
+    
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/*-------------TEAM  ICONS SVG---------------------------*/
+
+.cards-soc-list {
+
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.cards-soc-item {
+        width: 44px;
+        height: 44px;
+}
+
+
+
+.cards-soc-link { 
+    width: 100%;
+    height:100%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.cards-soc-icons { 
+    fill: var(--icons-text-color);
+
+}
+
+.cards-soc-link:hover{ 
+    background-color: var(--accent-color);
+}
+    
+
+.cards-soc-link:hover .cards-soc-icons { 
+    fill: #FFFFFF;
+    
 }

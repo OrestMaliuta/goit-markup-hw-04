@@ -560,6 +560,29 @@ margin-right: auto;
     background-position: center;
 }
 
+/*------------------our-advantages-list------------------*/
+.our-advantages-list { 
+    display: flex;
+    
+    
+    gap: 35px;
+    margin-bottom: 27px;
+}
+.our-advantages-item { 
+    background: #F5F4FA;
+    border-radius: 4px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 270px;
+    height: 120px;
+}
+
+
+
+
+
 /*-------------TEAM  ICONS SVG---------------------------*/
 
 .cards-soc-list {
